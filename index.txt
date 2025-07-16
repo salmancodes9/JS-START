@@ -1,0 +1,49 @@
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="addBox()">Add Box</button>
+<button onclick="removeBox()">Remove Box</button>
+
+<div id="container"></div>
+
+<script>
+  let box;
+
+  function addBox() {
+    box = document.createElement("div");
+    box.textContent = "I'm a box!";
+    box.style.background = "lightblue";
+    box.style.padding = "10px";
+    box.style.margin = "10px";
+    document.getElementById("container").appendChild(box);
+  }
+
+  function removeBox() {
+    if (box) {
+      box.remove();
+    }
+  }
+</script>
+
+</body>
+</html> -->
+
+
+<!-- <html>
+    <head>
+      
+        <link rel="stylesheet" href="pr.css">
+    </head>
+    <body>
+      <div id="div">
+        <h1>People entered:</h1>
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Previous Entries:</p>
+      </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+ -->

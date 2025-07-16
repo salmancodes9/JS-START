@@ -1,0 +1,85 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pr.css">
+    <title>Document</title>
+</head>
+<body>
+    <p id="heading">welcome</p>
+    
+
+    <script>
+   
+    
+document.getElementById("heading").style.color = "blue";
+document.getElementById("heading").style.fontSize = "94px";
+
+   
+    </script>
+
+
+
+
+<a id="myLink" href="https://oldsite.com">Click me</a>
+
+<script>
+      
+document.getElementById("myLink").style.color = "blue";
+    document.getElementById("myLink").style.fontSize = "34px";
+  document.getElementById("myLink").href = "https://google.com";
+  
+</script> -->
+
+
+
+<!-- // changing Attribute -->
+<input id="box" value="Old Text">
+
+<script>
+  document.getElementById("box").setAttribute("value", "New Text");
+</script> 
+
+
+<Script>
+// 1. Make a new <div>
+let box = document.createElement("div");
+
+// 2. Add some text
+
+
+box.textContent = "🎉 Hello, I was added with JavaScript!";
+box.className = "mybox";
+// 3. Add some style
+box.style.backgroundColor = "lightblue";
+box.style.padding = "10px";
+box.style.margin = "10px";
+box.style.fontSize = "18px";
+box.style.borderRadius = "8px";
+
+// 4. Add it to the page
+document.body.appendChild(box);
+
+</Script>
+ <!-- Just an empty div to add stuff to -->
+  <div id="container"></div>
+
+  <script>
+    // 1. Create an image
+    let img = document.createElement("img");
+
+    // 2. Set the src attribute (image source)
+    img.src = "https://imgs.search.brave.com/w3-r2zsxmfpoZgdkkBfUBD1RNpKZzg255LeUFLzAGbE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9pbWEt/bWFya2V0LWFsc28t/a25vd24tYXMtbnVw/aS1rZWl0aGVsLWto/d2FpcmFtYmFuZC1r/ZWl0aGVsLXdvbWVu/LW1hcmtldC1taWRk/bGUtaW1waGFsLWlu/ZGlhbi0zMjgwNDg3/MTMuanBn";  // <img src="..." />
+
+    // 3. Set the alt attribute
+    img.alt = "Placeholder Image";
+
+    // 4. Set the width
+    img.width = 500;
+
+    // 5. Add it to the page inside the container
+    document.getElementById("container").appendChild(img);
+  </script>
+</body>
+</html>
