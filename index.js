@@ -58,3 +58,6 @@ function showQuote() {
   const random = Math.floor(Math.random() * quotes.length);
   quoteBox.textContent = quotes[random];
 }
+
+
+// demo
